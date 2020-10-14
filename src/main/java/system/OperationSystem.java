@@ -1,3 +1,7 @@
+package system;
+
+import model.MoneyNominal;
+
 import java.io.BufferedReader;
 import java.io.File;
 import java.io.FileReader;
@@ -77,7 +81,7 @@ public class OperationSystem {
         int moneyValue;
         atmInformation("Press 0 to end");
         moneyValue = Integer.parseInt(rd.readLine());
-        while(moneyValue > 1 && moneyValue <= userMoney.size()){
+        while(moneyValue > 0 && moneyValue <= userMoney.size()){
             moneyInATM.add(userMoney.get(moneyValue));
             score += userMoney.get(moneyValue).getMoneyNominal();
             atmInformation("Deposit: " + score);

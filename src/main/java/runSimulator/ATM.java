@@ -1,5 +1,9 @@
+package runSimulator;
+
 import java.io.*;
 import java.util.*;
+import system.*;
+import model.*;
 
 public class ATM{
 

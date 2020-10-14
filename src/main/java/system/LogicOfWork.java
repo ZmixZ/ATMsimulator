@@ -1,3 +1,7 @@
+package system;
+
+import model.MoneyNominal;
+
 import java.io.*;
 import java.util.ArrayList;
 
